@@ -1,4 +1,4 @@
-# parse_name-list
+# parsenamelist
 
 Example of usage of d3.js
 
