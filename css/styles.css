@@ -1,0 +1,77 @@
+/* ---------------------------------------------------------
+   HTML5 Bones
+   This stylesheet contains print styling and a section for 
+   you to simply add your own. This is a basic template 
+   after all.
+   ---------------------------------------------------------*/
+  * {
+  /* Berechnet die Grössen der Boxen ohne padding und Border */
+    box-sizing: border-box; 
+  } 
+
+body {
+    font-size: 100%;
+   
+    }
+  
+  .wrapper {
+    padding: 1rem;
+  }
+
+  .chart div,  {
+    font: 10px sans-serif;
+    background-color: blue;
+    text-align: right;
+    padding: 3px;
+    margin: 1px;
+    color: white;
+  }
+
+
+  .chart rect {
+    fill: steelblue;
+  }
+
+  /*.chart text {
+    fill: white;
+    font: 10px sans-serif;
+    text-anchor: end;
+  }*/
+
+  .chart_vert rect {
+    fill: steelblue;
+  }
+
+  .chart_vert text {
+    fill: white;
+    font: 10px sans-serif;
+    text-anchor: middle;
+  }
+
+  .chart_axis {}
+
+  .bar {
+      fill: steelblue;
+  }
+
+  .bar:hover {
+  fill: brown;
+}
+
+  .axis text {
+    font: 10px sans-serif;
+  }
+
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
+
+  .x.axis path {
+    display: none;
+  }
+
+
+   
